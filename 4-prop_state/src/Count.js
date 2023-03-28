@@ -1,8 +1,6 @@
-import "./App.css";
+import { useState } from "react";
 
-import React, { useState } from "react";
-
-function App() {
+function Count() {
   const [count, setCount] = useState(0);
 
   return (
@@ -13,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Count;

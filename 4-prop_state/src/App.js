@@ -1,5 +1,6 @@
 import "./App.css";
 import Anchor from "./Anchor";
+import Count from "./Count";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         href="https://www.github.com/danialkhawaja02"
         title="Danial's Github"
       />
+      <Count />
     </div>
   );
 }
